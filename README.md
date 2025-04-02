@@ -17,9 +17,10 @@ E escrito em Python usei o Python 3.11 com PyQt5
 
 Para que quiser usar é só instalar o Python311 caso já não tenha e a dependência python311-qt5
 
-sudo zypper in  Python311 python311-qt5 python311-PyInstaller
+$ sudo zypper in  Python311 python311-qt5 python311-PyInstaller
 
 Após isso no terminal na pasta onde baixou o  atualizacao.py
-pyinstaller --onefile --windowed atualizacao1.0.py
+
+$ pyinstaller --onefile --windowed atualizacao1.0.py
 
 Pronto será gerado o seu executável e espero que ajude!
