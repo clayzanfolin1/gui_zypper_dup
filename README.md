@@ -6,7 +6,7 @@ Ele executa para a atualizalçao do openSUSE com o comando:
 
 zypper -v dup --force-resolution –no-allow-vendor-change –no-confirm
 
-Também atualiza os aplicativos instalados do Flatpak
+Também atualiza os aplicativos instalados em Flatpak
 
 Para verificar se existe atualizações disponíveis é em modo usuário e após isso é libera os botões de atualização que precisa da senha do root para aplicar as atualizações.
 
