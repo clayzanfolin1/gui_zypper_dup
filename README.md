@@ -14,6 +14,7 @@ O programa está sobre a licença: Licença Pública Geral GNU versão 2.0
 
 E escrito em Python usei o Python 3.11 com PyQt5
 
+
 Para que quiser usar é só instalar o Python311 caso já não tenha e a dependência python311-qt5
 
 sudo zypper in  Python311 python311-qt5 python311-PyInstaller
