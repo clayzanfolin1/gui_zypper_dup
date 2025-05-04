@@ -20,7 +20,7 @@ class AboutWindow(QDialog):
         about_text = (
             "Desenvolvedor: Clayton Magalhães Zanfolin\n"
             "Licença: Licença Pública Geral GNU versão 2\n"
-            "Versão: 1.0"
+            "Versão: 1.0.1"
         )
         label = QLabel(about_text, self)
         label.setAlignment(Qt.AlignCenter)
