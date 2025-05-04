@@ -273,7 +273,7 @@ class UpdaterApp(QWidget):
         self.progress_bar.setValue(0)
 
         self.thread = CommandThread(
-            ["sudo", "-S", "zypper", "-v", "dup", "--force-resolution", "--no-allow-vendor-change", "--no-confirm"],
+            ["sudo", "-S", "zypper", "-v", "dup", "--force-resolution", "--no-allow-vendor-change", "--no-confirm", "--auto-agree-with-licenses"],
             self.password
         )
         self.thread.update_signal.connect(self.update_output)
