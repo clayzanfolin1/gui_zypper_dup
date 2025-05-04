@@ -23,4 +23,10 @@ Após isso no terminal na pasta onde baixou o atualizacao.py
 
 $ pyinstaller --onefile --windowed atualizacao.py
 
-Pronto será gerado o seu executável e espero que ajude!
+Pronto será gerado o seu executável!! 
+
+Exemplo para adicionar no lançador de aplicativos do KDE:
+Para colocar lançador de aplicativos, primeiro copie o arquivo resultante da compilação “atualizacao” para a pasta “bin” dentro da sua pasta de usuário, após isso clique com o botão direito no menu do lançador de aplicativos na barra de tarefas » Editar aplicativos… » clique em Sistema » Clique no botão Novo Item » Digite: Atualização e clique em “OK” » agora se quiser pode colocar uma descrição tipo: Atualização do Sistema e do Flatpak » em programa busque pelo arquivo “atualizacao” na pasta bin da sua pasta de usuário deixando assim /home/seu_usuário/bin/atualizacao » Agora pode escolher um ícone clicando no quadrado após nome e Descrição eu sugiro buscar update terá  ícones de atualização eu uso o “system-software-update” claque em “ok” » clique no botão salvar e pronto!
+
+
+Espero que ajude!
